@@ -10,13 +10,11 @@ Esse sistema de CRUD básico foi criado usando Laravel com banco de dados mysql.
 
 3 - Digite o comando composer install para fazer o download de todos os pacotes necessários.
 
-4 - agora precisamos criar um banco de dados do sistema para isso é necessário ter um servido web instalado no computador como por exemplo o XAMP que terá instalado o banco de dados MySQL. Basta executar o banco de dados MySQL e depois criar um banco de dados que será usado pelo sistema.
+4 - agora precisamos criar um banco de dados do sistema para isso é necessário ter um servido web instalado no computador como por exemplo o XAMP que terá instalado o banco de dados MySQL. Basta executar o banco de dados MySQL e depois criar o banco de dados que será usado pelo sistema chamado mgz_brindes.
 
-5 - Depois que o banco de dados tiver sido criado precisamos configurar o arquivo .env na pasta do projeto para que o sistema possa saber qual banco de dados vai ser utilizado. Onde tem as configurações do mysql informe no database o nome do banco de dados que você criou e salve o arquivo.
+5 - no comando de prompt digite php artisan migrate para fazer a criação das tabelas no banco de dados.
 
-6 - no comando de prompt digite php artisan migrate para fazer a criação das tabelas no banco de dados.
-
-7 - Quando concluir digite o comando php artisan serve que será executando um servidor local indicando qual a porta em que o projeto estará rodando que por padrão é localhost:8000.
+6 - Quando concluir digite o comando php artisan serve que será executando um servidor local indicando qual a porta em que o projeto estará rodando que por padrão é localhost:8000. Abra o navegador e digite o endereço na url.
 
 Agora a aplicação deverá está rodando e é só fazer os testes.
 
